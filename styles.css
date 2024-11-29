@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .start-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  .stop-btn {
+    background-color: red;
+    color: white;
+  }
+  
+  .lap-btn {
+    background-color: blue;
+    color: white;
+  }
+  
+  .reset-btn {
+    background-color: orange;
+    color: white;
+  }
+  
+  #lap-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lap-item {
+    font-size: 18px;
+  }
+  
